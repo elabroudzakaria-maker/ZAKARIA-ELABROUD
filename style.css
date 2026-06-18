@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: #0a0f1c;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #1b2a4a, #0a0f1c);
+}
+
+.glass {
+  background: rgba(255,255,255,0.05);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+/* BUTTONS */
+.buttons a {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: #4f46e5;
+  color: white;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 10%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* CARDS */
+.card, .project, .skill {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.project:hover, .card:hover, .skill:hover {
+  transform: translateY(-10px);
+  background: rgba(255,255,255,0.1);
+}
