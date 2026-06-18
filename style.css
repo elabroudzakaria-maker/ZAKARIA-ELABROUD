@@ -12,14 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   background: radial-gradient(circle, #1b2a4a, #0a0f1c);
-  .profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%; /* cercle */
-  object-fit: cover;
-  border: 3px solid #4f46e5;
-  margin-bottom: 20px;
-}
+  
 }
 
 .glass {
@@ -28,6 +21,14 @@ body {
   border-radius: 20px;
   backdrop-filter: blur(10px);
   text-align: center;
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* cercle */
+  object-fit: cover;
+  border: 3px solid #4f46e5;
+  margin-bottom: 20px;
 }
 
 /* BUTTONS */
